@@ -23,7 +23,7 @@ function init(){
     reset();
 }
 
-setupModeButtons(){
+function setupModeButtons(){
     for(var i=0; i < modeButtons.length;i++){
        
         
@@ -36,7 +36,7 @@ setupModeButtons(){
         });
     }
 }
-setupSquares(){
+function setupSquares(){
     for(var i = 0; i<lista.length;i++){
         lista[i].style.backgroundColor = listaRGB[i];
         lista[i].addEventListener("click", function(){
